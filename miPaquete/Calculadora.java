@@ -1,23 +1,27 @@
 package miPaquete;
-
+import java.lang.Math;
 public class Calculadora {
-    public double suma(double x, double y)
+    
+    public int suma( int x, int y)
     {
-        return (x+y);
+        return (x + y);
     }
 
-    public double resta(double x, double y)
+    public int resta(int x, int y)
     {
-        return (x-y);
+        return (x - y);
     }
 
-    public double multiplica(double x, double y)
+    public int multiplica(int x, int y)
     {
-        return (x*y);
+        return (x * y);
     }
 
-    public double divide(double x, double y)
+    public int divide(int x, int y)
     {
-        return (x/y);
+        return (x / y);
+    }
+    public int modulo(int x, int y){
+        return (x % y);
     }
 }
